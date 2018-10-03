@@ -107,7 +107,7 @@ let randomDouble = Double.random(in: 1...100)
 let randomCGFloat = CGFloat.random(in: 1...1000)
 ```
 
-## [#3 Boolean toggling](https://github.com/avadhesh12345678)
+## [#3 Boolean toggling](https://github.com/apple-avadhesh)
 
 ```swift
 var loggedIn = false
