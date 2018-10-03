@@ -3,17 +3,17 @@
 
 # Swift 4.2 Updates
 
-[#9 Array Functions](https://github.com/avadhesh12345678/Swift-Updates#9-array-functions)     
-[#8 Build configuration import testing](https://github.com/avadhesh12345678/Swift-Updates#8-build-configuration-import-testing)         
-[#7 Target environment testing](https://github.com/avadhesh12345678/Swift-Updates#7-target-environment-testing)     
-[#6 Derived collections of enum cases](https://github.com/avadhesh12345678/Swift-Updates#6-derived-collections-of-enum-cases)     
-[#5 Warning and error diagnostic directives](https://github.com/avadhesh12345678/Swift-Updates#5-warning-and-error-diagnostic-directives)       
-[#4 Random number generation and shuffling](https://github.com/avadhesh12345678/Swift-Updates#4-random-number-generation-and-shuffling)  
-[#3 Boolean toggling](https://github.com/avadhesh12345678/Swift-Updates#3-boolean-toggling)  
-[#2 In-place collection element removal](https://github.com/avadhesh12345678/Swift-Updates#2-in-place-collection-element-removal)  
+[#9 Array Functions](https://github.com/apple-avadhesh/Swift-Updates#9-array-functions)     
+[#8 Build configuration import testing](https://github.com/apple-avadhesh/Swift-Updates#8-build-configuration-import-testing)         
+[#7 Target environment testing](https://github.com/apple-avadhesh/Swift-Updates#7-target-environment-testing)     
+[#6 Derived collections of enum cases](https://github.com/apple-avadhesh/Swift-Updates#6-derived-collections-of-enum-cases)     
+[#5 Warning and error diagnostic directives](https://github.com/apple-avadhesh/Swift-Updates#5-warning-and-error-diagnostic-directives)       
+[#4 Random number generation and shuffling](https://github.com/apple-avadhesh/Swift-Updates#4-random-number-generation-and-shuffling)  
+[#3 Boolean toggling](https://github.com/apple-avadhesh/Swift-Updates#3-boolean-toggling)  
+[#2 In-place collection element removal](https://github.com/apple-avadhesh/Swift-Updates#2-in-place-collection-element-removal)  
 [#1 Checking sequence elements match a condition](https://github.com/avadhesh12345678/Swift-Updates#1-checking-sequence-elements-match-a-condition)   
 
-## [#9 Array Functions](https://github.com/avadhesh12345678)
+## [#9 Array Functions](https://github.com/apple-avadhesh)
  # 1. Map
  Use map to loop over a collection and apply the same operation to each element in the collection.
 ```swift
@@ -42,7 +42,7 @@ Read it like : map + (Flat the collection)
 let sum = arrayOfArray.flatMap{$0}.filter{$0 % 2 == 0}.map{$0 * $0}
 print(sum.reduce(0, +)) //20
  ```
-## [#8 Build configuration import testing](https://github.com/avadhesh12345678)
+## [#8 Build configuration import testing](https://github.com/apple-avadhesh)
 
 ```swift
 #if canImport(SpriteKit)
@@ -52,7 +52,7 @@ print(sum.reduce(0, +)) //20
 #endif
 ```
 
-## [#7 Target environment testing](https://github.com/avadhesh12345678)
+## [#7 Target environment testing](https://github.com/apple-avadhesh)
 
 ```swift
 #if targetEnvironment(simulator)
@@ -62,7 +62,7 @@ print(sum.reduce(0, +)) //20
 #endif
 ```
 
-## [#6 Derived collections of enum cases](https://github.com/avadhesh12345678)
+## [#6 Derived collections of enum cases](https://github.com/apple-avadhesh)
 
 ```swift
 enum Developers: CaseIterable {
@@ -78,7 +78,7 @@ for developer in Developers.allCases {
 
 ```
 
-## [#5 Warning and error diagnostic directives](https://github.com/avadhesh12345678)
+## [#5 Warning and error diagnostic directives](https://github.com/apple-avadhesh)
 
 ```swift
 func encrypt(_ string: String, with password: String) -> String {
@@ -95,7 +95,7 @@ struct Configuration {
 ```
 
 
-## [#4 Random number generation and shuffling](https://github.com/avadhesh12345678)
+## [#4 Random number generation and shuffling](https://github.com/apple-avadhesh)
 
 ```swift
 let randomInt = Int.random(in: 1..<5)
@@ -114,7 +114,7 @@ var loggedIn = false
 loggedIn.toggle()
 ```
 
-## [#2 In-place collection element removal](https://github.com/avadhesh12345678)
+## [#2 In-place collection element removal](https://github.com/apple-avadhesh)
 
 ```swift
 var developers = ["Avadhesh", "Vishal", "Sandeep", "Anil", "Prashant"]
@@ -123,7 +123,7 @@ print(developers)
 // "["Avadhesh", "Vishal", "Anil", "Prashant"]\n"
 ```
 
-## [#1 Checking sequence elements match a condition](https://github.com/avadhesh12345678)
+## [#1 Checking sequence elements match a condition](https://github.com/apple-avadhesh)
 
 ```swift
 let scores = [80, 88, 95, 92]
